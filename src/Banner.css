@@ -1,0 +1,56 @@
+.banner {
+    height: 28rem;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.bannerContent {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.bannerTitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.bannerOverview {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.voteAverage {
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voteAverage .number {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.voteAverage .star {
+    color: yellow;
+    font-size: 36px;
+}
+
+.voteAverage .votes {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
