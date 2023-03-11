@@ -26,7 +26,6 @@ function Navbar() {
         <FaHome />
         <FaTv />
         <FaFilm />
-        <FaHistory />
       </div>
     </div>
   )
